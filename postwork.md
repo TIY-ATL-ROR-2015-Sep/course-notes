@@ -1,8 +1,6 @@
 # A Postwork Confessional
 
 > Brit Butler, TIY Atlanta
->
-> August 16th, 2015
 
 My dearest students, y'all, congratulations.
 
@@ -44,7 +42,7 @@ There are three broad categories I'll group these suggestions into:
 >    * Write more Rails apps, practice unit testing, dip your toes in ops or frontend.
 >
 > F) Work on your **fundamentals**.
->    * Take the magic out of programming, master scoping and evaluation.
+>    * Take the magic out of programming, push the language further, etc.
 >
 > P) Gain a greater appreciation for programming **paradigms** and new languages.
 >    * What does it mean to do Object-Oriented or Functional Programming and why do we do it?
@@ -62,16 +60,6 @@ why they do the things they do, and how to get them to behave differently.
 The good news is that with a solid understanding of the fundamentals,
 I could apply that knowledge to web apps in a straightforward manner.
 
-Think back to every time you were impressed by my speed debugging a problem
-you'd spent an hour staring at. I attribute my ability to do this not to
-tons of experience with Ruby and Rails but to many hours spent working on
-simple programs and thinking about the *fundamentals*.
-
-The big controversial belief I'm arguing for is this:
-
-    For about the next year, you'll get as much benefit from
-    sharpening your fundamentals as writing another Rails app.
-
 If you think about it, the main time we had to focus on the "fundamentals"
 were the first 2-3 weeks of the course. After that, we got wrapped up in
 web apps and MVC. Now, don't get me wrong, MVC is great. But when you see
@@ -79,20 +67,19 @@ a new problem, I'd prefer you not to first think "How do I break this into
 a model, controller, and view?"
 
 The more you can broaden your horizons, the more ways you can think of to
-break up and decompose problems, the better off you'll be. Seeing everything
-through the lens of MVC and Rails limits your view. Keep learning more
-about Rails but don't forget to learn things that might not seem
-immediately applicable to your career.
+break up and decompose problems, the better off you'll be. Keep learning
+more about Rails but don't forget to learn things that might not seem
+immediately applicable to your career. (insert smalltalk/lisp snark here)
 
 Anyway, enough about that. I'll get off my soap box.
 
 ## Suggestions
 
 I'm going to group these suggestions by a rough order. Some of them are
-things you should pursue immediately, others will be most helpful to you
+things worth pursuing immediately, others will be most helpful to you
 a good deal later.
 
-In the end, run towards what excites you.
+Ultimately, run towards what excites you.
 
 ### 1-3 months post-graduation
 
@@ -110,7 +97,7 @@ of ticking off all my boxes:
   * It builds on and reinforces your existing knowledge of plain old Ruby.
   * It isn't focused on Rails apps, it's focused on *fundamentals*, good problem solving,
     decomposition, and how to write **elegant, good code**.
-  * It will greatly deepen your understanding of the whys and hows of Object Orientation.
+  * It will deepen your understanding of the whys and hows of Object Orientation.
 
 [poodr]: http://www.poodr.com
 
@@ -124,15 +111,22 @@ you nicely through Avdi's thought process including testing! On the down side, t
 versions of Ruby and Rails used are a *wee* bit old and Avdi's style is slightly unusual.
 That said, there's much to learn here.
 
+If you enjoy this, you may also want to look at [Rails As She Is Spoke][rasis]
+by Giles Bowkett. I haven't had the opportunity to go through it but Giles,
+while controversial, tends to have valuable perspectives. It's nice to see
+someone address the non-Object Orientedness of Rails directly.
+
 [oor]: http://objectsonrails.com/
+[rasis]: http://railsoopbook.com/
 
 #### Project: Unit Testing Practice (R)
 
 Go back and try to write a tested, terminal version of checkers or the todo list app.
-Write some tests for your final project if you haven't.
+Write tests for your final project if you haven't!
 
-Use minitest or follow along with a blog that teaches testing with Rspec. The important
-thing is to get reps and become comfortable with thinking about how to test code.
+Use minitest or follow along with a blog that teaches testing with rspec.
+The important thing is to get reps and become more comfortable with
+thinking about how to test code. Also, experience with stubbing is valuable.
 
 #### Smorgasborg (R)
 
@@ -156,7 +150,7 @@ It is totally reasonable at this point to just be keeping up with your job and
 enjoying some well deserved rewards. If you want to broaden your skills,
 here are a few night projects worth looking at.
 
-#### Book: SICP (Chapters 1 and 2) (F)
+#### Book: SICP (At least Chapters 1 and 2) (F)
 
 [SICP][sicp] is the book that got me started on programming. If you'll excuse the
 appeal to authority, just google about it and see how many best programming books
@@ -173,12 +167,12 @@ Try [Racket][racket].
 
 Just after Chapter 1 a substantial amount of *magic* will disappear from the code around you.
 And in Chapter 2 you'll see how you could add Classes and Objects to a language that doesn't
-have them! If you're brave enough to proceed to chapters 3, 4, and 5, you'll get a taste of
+have them. If you're brave enough to proceed to chapters 3, 4, and 5, you'll get a taste of
 the logic programming paradigm and then even build your own language and compiler!
 
 **NOTE**: Try doing some of the exercises, but don't commit to doing **every single one** like
-I did. Getting exposed to the ideas is the most important thing, do a few exercises each section
-to grasp the material better.
+I did. Getting exposed to the ideas is the most important thing, do a few
+exercises each section to grasp the material better.
 
 [books-tweet]: https://twitter.com/lukego/status/632450443566780416
 [sicp-review]: http://www.amazon.com/review/R403HR4VL71K8/ref=cm_cr_dp_title?ie=UTF8&ASIN=0262510871&channel=detail-glance&nodeID=283155&store=books
@@ -224,15 +218,16 @@ I think an excellent place to start is [Functional Programming in Scala][fps] an
 [Paul Snively's review][psr] speaks to why. It's a bonus that Scala is ultimately a
 hybrid Object/Functional language and that its usage in industry is growing.
 
-If you're still hooked and want more after that, maybe get a look at programming in a
-more dedicated Functional language and read Real World Ocaml or Real World Haskell.
+If you're still hooked and want more after that, or Scala is completely
+unappealing to you, maybe get a look at programming in a
+more "pure" Functional language and read Real World Ocaml or Learn You A Haskell.
 
 [fps]: http://www.amazon.com/Functional-Programming-Scala-Paul-Chiusano/dp/1617290653
 [psr]: http://www.amazon.com/review/R8P9W8Z7QXLWW/ref=cm_cr_dp_title?ie=UTF8&ASIN=1617290653&channel=detail-glance&nodeID=283155&store=books
 
 #### Project: Read Some Good Code (R, P)
 
-This is one I feel compelled to include but I don't have particular code to recommend.
+This is one I feel compelled to include but I don't have particular code to recommend, though I'm intrigued by [lobste.rs][lobsters].
 
 I may package up a mailing list that's disappeared from the net called "kragen-hacks".
 It was a great source of small, interesting programs (often in Python) that were well
@@ -249,6 +244,7 @@ make some lisp recommendations. Hit me up! :)
 [rgc]: https://www.youtube.com/watch?v=mW_xKGUKLpk
 [rcg]: http://www.readingcodegood.com/
 [a-rails]: https://github.com/ekremkaraca/awesome-rails
+[lobsters]: https://github.com/jcs/lobsters
 
 #### Book/Playground: Smalltalk Best Practice Patterns (P)
 
@@ -285,7 +281,7 @@ Figure out what the Operating System does for programmers, how things work "unde
 
 Welp, that's it. Every strong jumping off point I could think of.
 
-I'll likely add a few videos and blog posts to this over but
+I'll likely add a few videos and blog posts to this over the next week but
 what's most important is a starting point and I think this is a good one.
 
 I haven't done everything on this list and that is okay! We've all
@@ -293,4 +289,4 @@ got to pay the bills and get away from computers too. Remember to
 have a beer and some time in the sun with loved ones.
 I'm here if you have questions or feedback.
 
-Thank you for being my students. :beers: :balloon: :tada:
+Thank you for being my students. :beers: :balloon: :tada: :heart:
